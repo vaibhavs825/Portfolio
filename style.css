@@ -77,3 +77,9 @@ span.md {
    /*-webkit-text-stroke-width: 1.4px;*/
    -webkit-text-stroke-color: black;
 }
+
+@media screen and (min-width: 480px) {
+    .row {
+        width: 100%;
+    }
+}
