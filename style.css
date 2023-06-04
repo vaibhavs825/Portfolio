@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body {
+   font-family: "Open Sans", sans-serif;
+   color: whitesmoke;
+   background-image: url(bg1.jpg) ;
+}
+
+img {
+   display: flex;
+   align-items: center;
+}
+
+.large-img {
+   max-height: 100vh;
+}
+.small-img {
+   max-width: 70vw;
+}
+
+.buttons-section {
+   align-items: center;
+   justify-content: center;
+   margin: 0.8em;
+}
+
+.sidebar {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.sidebar > h1 {
+   font-size: 3.8em;
+   margin-top: 0.5em;
+}
+
+.about > p {
+   margin: 1em;
+   font-size: 1.2em;
+}
+
+.about {
+   margin: 0.5em 0;
+}
+
+.btn
+{
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  margin-bottom: 1.8em;
+  margin-top: -0.6em;
+
+}
+.btn:hover
+{
+  background-color: black;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.icons-social a {
+   padding: 0.5em;
+   font-size: 1.25em;
+}
+
+.icons-social a {
+   color: white;
+   transition: all 0.2s ease-in-out;
+}
+
+.icons-social a:hover,
+span.md {
+   /*-webkit-text-stroke-width: 1.4px;*/
+   -webkit-text-stroke-color: black;
+}
