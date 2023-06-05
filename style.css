@@ -78,9 +78,14 @@ span.md {
    -webkit-text-stroke-color: black;
 }
 
-@media screen and (min-width: 400px) {
+@media only screen and (min-width: 400px){
     .row {
         font-size: 1.75em;
     }
 }
 
+@media only screen and (min-width: 1024px) {
+   .row {
+      font-size: 1em;
+   }
+}
