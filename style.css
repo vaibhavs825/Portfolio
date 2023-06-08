@@ -83,3 +83,13 @@ span.md {
       font-size: 1em;
    }
 }
+
+@media only screen and (min-width: 2500px) {
+   body {
+      background: url(bg.jpg);
+      font-size: 1.1em;
+      margin: 1.4em;
+      margin-left: 4em;
+   }
+}
+
